@@ -5,8 +5,8 @@ The secret to being able to run AD enumeration commands from the AD Powershell m
 This repository contains a Microsoft signed DLL for the ActiveDirectory PowerShell module. Basically just a backup from a Microsoft Windows Server 2019 with RSAT from the following locations:
 
 - C:\Windows\System32\WindowsPowerShell\v1.0\Modules\ActiveDirectory
-- C:\Windows\WinSxS\*\Microsoft.ActiveDirectory.Management.dll
-- C:\Windows\WinSxS\*\Microsoft.ActiveDirectory.Management.resources.dll
+- C:\Windows\WinSxS\\*\Microsoft.ActiveDirectory.Management.dll
+- C:\Windows\WinSxS\\*\Microsoft.ActiveDirectory.Management.resources.dll
 
 ## Usage
 
