@@ -18,8 +18,8 @@ git clone https://github.com/l4rm4nd/ADModule
 cd ADModule
 
 # import dlls and modules
-Import-Module Microsoft.ActiveDirectory.Management.dll -Verbose
-Import-Module ActiveDirectory.psd1 -Verbose
+Import-Module .\Microsoft.ActiveDirectory.Management.dll -verbose
+Import-Module .\ActiveDirectory.psd1 -Verbose
 
 # list imported ad modules
 Get-Command -Module ActiveDirectory
